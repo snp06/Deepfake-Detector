@@ -55,16 +55,15 @@ def process_videos(video_dir, label):
             frame_id += 1
 
         cap.release()
-        print(f"✅ Saved {saved_count} faces from {video_file}\n")
+        print(f"Saved {saved_count} faces from {video_file}\n")
 
 
 def main():
-    print("🚀 Starting dataset processing...\n")
+    print(" Starting dataset processing...\n")
     
     process_videos(FAKE_VIDEOS, "fake")
     process_videos(REAL_VIDEOS, "real")
     
-
     print(" DONE! Dataset ready at: dataset/faces")
 
 
