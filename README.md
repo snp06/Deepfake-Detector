@@ -17,4 +17,3 @@ A Flask-based web app to detect fake vs real videos using AI.
 ```bash
 pip install -r requirements.txt
 python app.py
----
